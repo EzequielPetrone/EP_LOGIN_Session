@@ -1,0 +1,28 @@
+<div class="container p-3">
+  <h2 class="my-3">
+    LOGIN
+  </h2>
+  <form
+    class="form p-2"
+    role="form"
+    action="/login"
+    method="post"
+    autocomplete="off"
+  >
+    <div class="mb-3">
+      <label for="username" class="form-label">
+        User Name
+      </label>
+      <input required type="text" class="form-control" name="username" />
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">
+        Password
+      </label>
+      <input required type="password" class="form-control" name="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">
+      LOGIN
+    </button>
+  </form>
+</div>

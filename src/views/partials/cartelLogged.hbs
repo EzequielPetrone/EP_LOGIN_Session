@@ -1,0 +1,14 @@
+{{! <div class="alert alert-danger sticky-top" role="alert"> }}
+<div class="alert alert-success d-flex justify-content-between align-center">
+  <h2 class="font-weight-bold">
+    Bienvenidx {{username}} !
+  </h2>
+  <button class="btn btn-danger" onclick="logout()">
+    LOGOUT
+  </button>
+</div>
+<script>
+  function logout() {
+    location.href = '/logout';
+  }
+</script>
